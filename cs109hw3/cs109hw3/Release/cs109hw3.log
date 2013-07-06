@@ -1,0 +1,27 @@
+﻿Build started 5/1/2013 2:17:12 PM.
+     1>Project "G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw3\cs109hw3\cs109hw3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\VisualStudio2012\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt refactor.cpp
+         refactor.cpp
+     1>refactor.cpp(148): warning C4018: '<' : signed/unsigned mismatch
+     1>refactor.cpp(176): warning C4018: '<' : signed/unsigned mismatch
+     1>refactor.cpp(253): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VisualStudio2012\VC\include\string.h(200) : see declaration of 'strtok'
+     1>refactor.cpp(254): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VisualStudio2012\VC\include\string.h(200) : see declaration of 'strtok'
+     1>refactor.cpp(255): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VisualStudio2012\VC\include\string.h(200) : see declaration of 'strtok'
+     1>refactor.cpp(256): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\VisualStudio2012\VC\include\string.h(200) : see declaration of 'strtok'
+       Link:
+         C:\Program Files (x86)\VisualStudio2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw3\Release\cs109hw3.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw3\Release\cs109hw3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw3\Release\cs109hw3.lib" /MACHINE:X86 /SAFESEH Release\refactor.obj
+         Generating code
+     1>g:\users\steven\documents\visual studio 2012\projects\cs109hw3\cs109hw3\refactor.cpp(250): warning C4700: uninitialized local variable 'in' used
+     1>g:\users\steven\documents\visual studio 2012\projects\cs109hw3\cs109hw3\refactor.cpp(251): warning C4700: uninitialized local variable 'lineNum' used
+         Finished generating code
+         cs109hw3.vcxproj -> G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw3\Release\cs109hw3.exe
+     1>Done Building Project "G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw3\cs109hw3\cs109hw3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.46

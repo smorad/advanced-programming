@@ -1,0 +1,16 @@
+﻿Build started 4/20/2013 12:33:03 PM.
+     1>Project "G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\cs109hw2\cs109hw2.vcxproj" on node 2 (LibLinkOnly target(s)).
+     1>Link:
+         C:\Program Files (x86)\VisualStudio2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\Debug\cs109hw2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\Debug\cs109hw2.pdb" /SUBSYSTEM:CONSOLE /PGD:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\Debug\cs109hw2.pgd" /LTCG:PGOptimize /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\Debug\cs109hw2.lib" /MACHINE:X86 Debug\Source.obj
+         Debug\Node.obj
+         Microsoft (R) Incremental Linker Version 11.00.60315.1
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         "/OUT:G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\Debug\cs109hw2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\Debug\cs109hw2.pdb" /SUBSYSTEM:CONSOLE "/PGD:G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\Debug\cs109hw2.pgd" /LTCG:PGOptimize /TLBID:1 /DYNAMICBASE /NXCOMPAT "/IMPLIB:G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\Debug\cs109hw2.lib" /MACHINE:X86 Debug\Source.obj 
+         Debug\Node.obj 
+     1>LINK : fatal error LNK1266: error reading instrumentation file 'G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\Debug\cs109hw2.pgd'; File not found
+     1>Done Building Project "G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw2\cs109hw2\cs109hw2.vcxproj" (LibLinkOnly target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18

@@ -1,0 +1,19 @@
+﻿Build started 5/21/2013 10:19:22 PM.
+     1>Project "G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw4\cs109hw4\cs109hw4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\VisualStudio2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Source1.cpp
+         Source1.cpp
+     1>g:\users\steven\documents\visual studio 2012\projects\cs109hw4\source1.cpp(209): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\users\steven\documents\visual studio 2012\projects\cs109hw4\source1.cpp(224): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\users\steven\documents\visual studio 2012\projects\cs109hw4\source1.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\users\steven\documents\visual studio 2012\projects\cs109hw4\source1.cpp(248): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\users\steven\documents\visual studio 2012\projects\cs109hw4\source1.cpp(250): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\users\steven\documents\visual studio 2012\projects\cs109hw4\source1.cpp(260): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\VisualStudio2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw4\Debug\cs109hw4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw4\Debug\cs109hw4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw4\Debug\cs109hw4.lib" /MACHINE:X86 Debug\Source1.obj
+         cs109hw4.vcxproj -> G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw4\Debug\cs109hw4.exe
+     1>Done Building Project "G:\Users\Steven\Documents\Visual Studio 2012\Projects\cs109hw4\cs109hw4\cs109hw4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12
